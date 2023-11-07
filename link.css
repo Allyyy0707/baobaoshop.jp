@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+body{
+    background-color: rgb(254,209,46);
+    font-family: 'jason';
+}
+/* br{
+    text-align: center;
+    display: block;
+} */
+@font-face {
+    font-family: 'jason';
+    src: url(./font/JasonHandwriting1.ttf)format("truetype");
+}
+@font-face{
+    font-family: 'chen';
+    src: url(./font/ChenYuluoyan-Thin.ttf)format("truetype");
+}
+#topic{
+    text-align: center;
+    font-family: 'chen';
+}
+.horizontal_menu{
+    display: flex;
+    list-style: none;
+    padding:0;
+    font-size: large;
+    
+}
+#products{
+    font-size: large;
+    font-family: 'jason';
+    color: rgb(255,236,193);
+    padding:0;
+    border: 0;
+}
+ul{
+    /* align-items: center; */
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width: 700px;
+    background-color: rgb(167,105,46);
+    justify-items:center;
+}
+li{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+li a {
+    color: rgb(255,236,193);
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(84,92,147);
+}
+select{
+    background-color: rgb(167,105,46);
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 auto;
+    justify-content: center;
+}
+div a{
+    color: rgb(79, 58, 6);
+    text-decoration:none
+}
+
+div a:hover{
+    color: rgb(79, 58, 6);
+    text-decoration:none
+}
+#shopee{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: rgb(79, 58, 6);
+    background-color: rgb(210, 188, 167);
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(70, 34, 0, 0.814); 
+    box-shadow: 5px 5px 0px 0px rgba(74, 60, 3, 0.3);
+}
+
+#ig{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: rgb(79, 58, 6);
+    background-color: rgb(210, 188, 167);
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(70, 34, 0, 0.814); 
+    box-shadow: 5px 5px 0px 0px rgba(74, 60, 3, 0.3);
+}
